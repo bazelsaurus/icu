@@ -38,7 +38,7 @@ cc_library(
   ],
   copts = [
     "-Wno-deprecated-declarations",
-    "-Wno-unused-but-set-variable",
+    "-Wno-unused-function",
   ],
   linkopts = [
     "-ldl",

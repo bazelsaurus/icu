@@ -4,7 +4,7 @@
 #include <string>
 
 #include <unicode/unistr.h>
-#include <unicode/unistr.h>
+#include <unicode/ustream.h>
 
 int main(int argc, char** argv) {
   icu::UnicodeString str = icu::UnicodeString::fromUTF8(
@@ -15,4 +15,5 @@ int main(int argc, char** argv) {
   std::string stdstr;
   str.toLower().toUTF8String(stdstr);
   std::cout << stdstr << std::endl;
+  std::cout << str << std::endl;
 }
