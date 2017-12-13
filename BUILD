@@ -30,7 +30,7 @@ cc_library(
     "U_CHARSET_IS_UTF8=1",
     "U_NO_DEFAULT_INCLUDE_UTF_HEADERS=1",
     "_REENRANT=1",
-    "U_HAVE_STRTOD_L=1",
+#    "U_HAVE_STRTOD_L=1", # does not work with android
     "U_STATIC_IMPLEMENTATION",
     "U_COMMON_IMPLEMENTATION",
     "U_IO_IMPLEMENTATION",
